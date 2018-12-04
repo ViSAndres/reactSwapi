@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Stats.css';
+import './components/Item'
 const axios = require('axios');
 
 
@@ -36,7 +37,7 @@ class Stats extends Component {
       console.log(data)
 
       return data.map(x => {
-        return(<h1>{x.name}</h1>)
+        return()
       })
     }
   }
@@ -72,6 +73,7 @@ class Stats extends Component {
       return (
         <div className = 'parent'> 
         <div className = 'sw'>
+        
         <button onClick = { () => this.changeProperty('people')}>People</button>
         <button onClick = { () => this.changeProperty('planets')}>Planets</button>
         <button onClick = { () => this.changeProperty('starships')}>Starships</button>

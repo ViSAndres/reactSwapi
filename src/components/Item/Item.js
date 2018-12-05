@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './Item.css';
 class Item extends Component {
     constructor(props){
         super(props);
@@ -15,3 +15,6 @@ render(){
     )
 }
 }
+
+
+export default Item;

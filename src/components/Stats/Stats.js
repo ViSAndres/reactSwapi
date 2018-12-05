@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Stats.css';
-import './components/Item'
+import Item from '../Item/Item';
 const axios = require('axios');
 
 
@@ -37,7 +37,7 @@ class Stats extends Component {
       console.log(data)
 
       return data.map(x => {
-        return()
+        return(<Item itemData = {x}/>)
       })
     }
   }

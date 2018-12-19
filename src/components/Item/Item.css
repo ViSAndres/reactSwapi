@@ -1,13 +1,17 @@
 .Box{
     background: #fff;
-    border: 1px solid #999;
+    border: 2px solid rgb(0, 0, 0);
     font-size: 24px;
     font-weight: bold;
-    line-height: 34px;
-    height: 34px;
+    line-height: 50px;
+    height: 50px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 10px;
     text-align: center;
     width: 250px; 
+}
+
+.Hover{
+    padding-left: 3in;
 }
